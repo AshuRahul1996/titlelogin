@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-div{
+  /* background-color: rgb(151, 241, 241); */
+  /* background-color: burlywood; */
+  border-radius: 25px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgb(247, 240, 240);
+  border-radius: 10px;
+  /* \ background: rgb(247, 243, 243); */
+  /* border-radius: 10px; */
+  border: 1px solid black;
+
+}
+.addTitle{
+  padding: 10px;
+}
+.child-div{
+  box-sizing: content-box;
+}
+.btnm{
+  background-color: yellow;
+  
+}
+.btnm:hover{
+  background-color: green;
+}
+button{
+  background-color: rgb(114, 167, 114);
+}
+.btn {
+background-color: rgb(196, 94, 94);
+}
+.btn:hover{
+  background-color: red;
+}
+h2{
+  color: rgb(78, 78, 78);
+}
+.form{
+  background-color: burlywood;
+}
+.el{
+  background-color: burlywood;
+  border-radius: 25px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgb(247, 243, 243);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.txthub{
+  padding: 10px;
+}
+.pass{
+  padding: 10px;
+}
+.btnhub{
+  /* padding: 10px; */
+  padding-bottom: 10px;
+  background-color: green
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
